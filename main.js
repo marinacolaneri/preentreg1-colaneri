@@ -1,27 +1,39 @@
-let local = "MAMILAS Ropa informal"
+let nombre = prompt ("¿cual es su nombre?");
+nombre = nombre.toUpperCase();
 
-console.log (local)
+alert ("bienvenido a MAMILAS Ropa informal" + " " + nombre); 
+
+let prendas =  {
+    buzo: 5200,
+    remera: 3200,
+    jean: 9000, 
+}
+console.log(prendas); 
+
+let talles = [ "small" , "madium" , "large" , "36" , "38" , "40" , "42" , "44" , "46"];
+talles.push ("Xsmall");
+console.log (talles)
+
 
 let consulta = prompt("Ingrese la prenda que desea comprar: \n1 Remera \n2 Jean \n3 Buzo");
 
-let talle 
-
-let small
 
 if (consulta == 1){
 
-    let small
-    let large
-
-    alert ('Hay stock en talle \n1 Small \n2 Large')
+    
+    alert ('Hay stock en talle \n1 small \n2 large'); 
+    
+    let talle = prompt ("¿que talle buscas?"); 
 
     if (talle == 1) {
 
         alert ('Hay stock')
+        
 
     }else if(talle == 2){
 
         alert ('Hay stock')
+      
     }
 }else if (consulta == 2){
 
@@ -37,13 +49,10 @@ if (consulta == 1){
     }
    
 }else if (consulta == 3){
-   
-    let small
-    let medium
-    
-        alert ('Hay stock en talle \n1 Small \n2Medium')
+      
+        alert ('Hay stock en talle \n1 small \n2 medium');
 
-    talle = prompt ("¿Que talle buscas?")
+        let talle = prompt ("¿que talle buscas?"); 
     
     if (talle == 1){
 
@@ -71,6 +80,4 @@ function sumarCompra (buzo, remera, jean ){
 
     console.log(sumarCompra (5200,3200,9000));
 
-
-
-
+ 
