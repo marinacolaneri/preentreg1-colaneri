@@ -67,7 +67,7 @@ if (consulta == 1){
         alert ('No hay stock')
      }
 
-}
+} 
  
 let buzo = 5200
 let remera = 3200
