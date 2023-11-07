@@ -1,0 +1,39 @@
+[
+    {
+      "nombre": "Remera",
+      "precio": 3200,
+      "imagen": "./img/remera1.jpg",
+      "tallas": ["XSmall", "Small", "Medium", "Large", "XLarge"]
+    },
+    {
+      "nombre": "Jean",
+      "precio": 9000,
+      "imagen": "./img/pantalon2.jpg",
+      "tallas": ["36", "38", "40", "42", "44", "46"]
+    },
+    {
+      "nombre": "Buzo",
+      "precio": 5200,
+      "imagen": "./img/buzo2.jpg",
+      "tallas": ["XSmall", "Small", "Medium", "Large", "XLarge"]
+    },
+    {
+      "nombre": "Medias",
+      "precio": 1200,
+      "imagen": "./img/medias.jpg",
+      "colores": ["Blanca", "Gris", "Negra"]
+    },
+    {
+      "nombre": "Gorra",
+      "precio": 4200,
+      "imagen": "./img/gorra.jpg",
+      "colores": ["Roja", "Blanca", "Negra", "Gris"]
+    },
+    {
+      "nombre": "Viscera",
+      "precio": 3500,
+      "imagen": "./img/viscera.jpg",
+      "colores": ["Rosa", "Blanca", "Negra","Azul"]
+    }
+  ]
+  

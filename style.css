@@ -1,40 +1,53 @@
 * {
-    margin: 5px;
-    padding: 0%;
-    box-sizing: border-box;
-  }
-  
-  h1 {
-    text-align: center;
-    color: aquamarine;
-    padding-bottom: 20px;
-  }
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .remera,
-  .jean,
-  .buzo {
-    display: inline-block;
-    width: 200px;
-    margin-right: 20px;
-  }
-  
-  .remera img,
-  .jean img,
-  .buzo img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .remera p,
-  .jean p,
-  .buzo p {
-    margin: 10px 0;
-  }
-  #finalizar {
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    font-size: 25px;
-    color: lightseagreen;
-  }
-  
+h1 {
+  text-align: center;
+  color: aquamarine;
+  padding-bottom: 20px;
+}
+
+#productos-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.remera,
+.jean,
+.buzo,
+.medias,
+.gorra,
+.visera {
+  width: 70%; /* Asegúrate de que cada producto ocupe todo el espacio de su celda */
+}
+
+.remera img,
+.jean img,
+.buzo img,
+.medias img,
+.gorra img,
+.visera img {
+  width: 100%;
+  height: auto;
+}
+
+.remera p,
+.jean p,
+.buzo p,
+.medias p,
+.gorra p,
+.visera p {
+  margin: 10px 0;
+}
+
+#finalizar {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 25px;
+  color: lightseagreen;
+}

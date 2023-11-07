@@ -1,62 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAMILAS Ropa informal</title>
     <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  </head>
+  <body>
     <h1>Bienvenido a MAMILAS Ropa informal</h1>
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre">
-    <button id="saludo">Saludar</button>
-  
+    <button id="saludoBtn">Saludar</button>
+
     <h2>Prendas disponibles:</h2>
-    <div class="remera">
-      <img src="./img/remera1.jpg" alt="Remera" onclick="tallesDisponibles('Remera', '3200')"/>
-      <select id="tallesRemera" style="display: none;">
-        <option value="small">Small</option>
-        <option value="large">Large</option>
-      </select>
-      <p>Precio: $3200</p>
-      <button onclick="carritoCompras('Remera', '3200', 'tallesRemera')">Agregar al carrito</button>
+
+    <div id="productos-container">
+     
     </div>
-  
-    <div class="jean">
-      <img src="./img/pantalon2.jpg" alt="Jean" onclick="tallesDisponibles('Jean', '9000')"/>
-      <select id="tallesJean" style="display: none;">
-        <option value="36">36</option>
-        <option value="38">38</option>
-        <option value="40">40</option>
-        <option value="42">42</option>
-        <option value="44">44</option>
-        <option value="46">46</option>
-      </select>
-      <p>Precio: $9000</p>
-      <button onclick="carritoCompras('Jean', '9000', 'tallesJean')">Agregar al carrito</button>
-    </div>
-  
-    <div class="buzo">
-      <img src="./img/buzo2.jpg" alt="Buzo" onclick="tallesDisponibles('Buzo', '5200')"/>
-      <select id="tallesBuzo" style="display: none;">
-        <option value="small">Small</option>
-        <option value="medium">Medium</option>
-      </select>
-      <p>Precio: $5200</p>
-      <button onclick="carritoCompras('Buzo', '5200', 'tallesBuzo')">Agregar al carrito</button>
-    </div>
-  
+
     <button id="finalizar">Finalizar compra</button>
-  
+
     <h2>Carrito de compras:</h2>
     <ul id="carrito"></ul>
-  
+
     <h2>Total de la compra:</h2>
     <p id="total">0</p>
-  
-    <script src="main.js"></script>
-</body>
-</html>
 
+    <script src="main.js"></script>
+  </body>
+  </html>
